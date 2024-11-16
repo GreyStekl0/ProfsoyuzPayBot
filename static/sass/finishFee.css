@@ -77,53 +77,35 @@ button {
   font-weight: 200; /* Ultralight weight */
 }
 body {
-  background: #022328 url("/static/image/bg.svg") top no-repeat;
+  background: #022328 url("/static/image/bg_finish.svg") no-repeat center 100px;
   font-family: avenirNextCyr, sans-serif;
   color: #F9F8F3;
 }
-body .payment {
-  padding-top: 100px;
+body .finishFee-image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 248px;
 }
-body .payment .payment__cost {
-  background-color: #022328;
-  border-radius: 25px;
+body .finishFee-title {
+  padding-top: 33px;
+  text-align: center;
 }
-body .payment .payment__cost .payment__cost-list {
-  padding: 22px 0 22px 24px;
+body .finishFee-escape {
+  padding-top: 23px;
+  text-align: center;
+  text-shadow: 0px 0px 10px #F9F8F3;
 }
-body .payment .payment__cost .payment__cost-list .payment__cost-title {
-  font-weight: 400;
-}
-body .payment .payment__info .payment__info-org {
-  font-weight: 500;
-  margin-top: 27px;
-}
-body .payment .payment__info .payment__info-aim {
-  font-weight: 500;
-  margin-top: 10px;
-}
-body .payment .payment__info .payment__info-text {
-  font-size: 10px;
-  font-weight: 200;
-}
-body .payment .payment__info li {
-  background-color: #022328;
-  border-radius: 12px;
-  padding-top: 12px;
-  padding-left: 14px;
-  padding-bottom: 12px;
-}
-body .payment .payment__button {
-  margin-top: 171px;
-  background-color: #509B46;
+body .fee__button {
+  margin-top: 135px;
+  background-color: #3235B6;
   font-size: 20px;
   border-radius: 15px;
   width: 100%;
   padding: 17px 0;
   text-align: center;
 }
-body .payment .payment__button:hover {
+body .fee__button:hover {
   background-color: rgb(61.8666666667, 119.8666666667, 54.1333333333);
 }
 
-/*# sourceMappingURL=payment.css.map */
+/*# sourceMappingURL=finishFee.css.map */

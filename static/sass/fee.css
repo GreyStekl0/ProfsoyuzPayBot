@@ -82,7 +82,7 @@ body {
   color: #F9F8F3;
 }
 body .fee {
-  padding-top: 155px;
+  padding-top: 100px;
 }
 body .fee .fee__cost {
   background-color: #022328;
@@ -100,10 +100,23 @@ body .fee .fee__cost .fee__cost-list .fee__cost-title input::placeholder {
 }
 body .fee .fee__info .fee__info-org {
   font-weight: 500;
+  width: 100%;
+}
+body .fee .fee__info .fee__info-org input {
+  width: 100%;
+}
+body .fee .fee__info .fee__info-org input::placeholder {
+  color: #F9F8F3;
 }
 body .fee .fee__info .fee__info-aim {
   font-weight: 500;
   margin-top: 10px;
+}
+body .fee .fee__info .fee__info-aim input {
+  width: 100%;
+}
+body .fee .fee__info .fee__info-aim input::placeholder {
+  color: #F9F8F3;
 }
 body .fee .fee__info li {
   background-color: #022328;

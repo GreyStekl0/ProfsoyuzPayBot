@@ -26,19 +26,23 @@
             <ul class="fee__info">
                 <li class="fee__info-org">
                     <label class="fee__info-org">Название организации<br>
-                        <input type="number" name="org" placeholder="Введите название организации">
+                        <input type="text" name="org" placeholder="Введите название организации">
                     </label>
                 </li>
                 <li class="fee__info-aim">
                     <label class="fee__info-aim">Цель сборов<br>
-                        <input type="number" name="aim" placeholder="Введите цель сборов">
+                        <input type="text" name="aim" placeholder="Введите цель сборов">
                     </label>
                 </li>
             </ul>
-            <button class="fee__button">Оплатить</button>
+            <button class="fee__button" id="createButton">Создать</button>
         </div>
     </div>
-
 </div>
+<script>
+    document.getElementById('createButton').addEventListener('click', function() {
+        window.location.href = '/finishFee';
+    });
+</script>
 </body>
 </html>

@@ -8,7 +8,7 @@ body {
   color: $text;
 
   .payment {
-    padding-top: 155px;
+    padding-top: 100px;
 
     .payment__cost {
       background-color: $bg;
@@ -53,7 +53,7 @@ body {
 
     .payment__button {
       margin-top: 171px;
-      background-color: $secondary;
+      background-color: $primary;
       font-size: 20px;
       border-radius: 15px;
       width: 100%;
@@ -61,7 +61,7 @@ body {
       text-align: center;
 
       &:hover {
-        background-color: darken($secondary, 10%);
+        background-color: darken($primary, 10%);
       }
     }
   }

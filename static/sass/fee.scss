@@ -8,7 +8,7 @@ body {
   color: $text;
 
   .fee {
-    padding-top: 155px;
+    padding-top: 100px;
 
     .fee__cost {
       background-color: $bg;
@@ -21,7 +21,7 @@ body {
         .fee__cost-title {
           font-weight: 400;
 
-          input::placeholder{
+          input::placeholder {
             color: $text;
           }
         }
@@ -32,12 +32,27 @@ body {
 
       .fee__info-org {
         font-weight: 500;
+        width: 100%;
 
+        input {
+          width: 100%;
+
+          &::placeholder {
+            color: $text;
+          }
+        }
       }
-
       .fee__info-aim {
         font-weight: 500;
         margin-top: 10px;
+
+        input {
+          width: 100%;
+
+          &::placeholder {
+            color: $text;
+          }
+        }
       }
 
 
@@ -52,7 +67,7 @@ body {
 
     .fee__button {
       margin-top: 171px;
-      background-color: $secondary;
+      background-color: $primary;
       font-size: 20px;
       border-radius: 15px;
       width: 100%;
@@ -60,7 +75,7 @@ body {
       text-align: center;
 
       &:hover {
-        background-color: darken($secondary, 10%);
+        background-color: darken($primary, 10%);
       }
     }
   }

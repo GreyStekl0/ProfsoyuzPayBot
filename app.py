@@ -13,8 +13,16 @@ def payment():  # put application's code here
 def fee():  # put application's code here
     return render_template('fee.html')
 
+@app.route('/finishFee')
+def finishfee():  # put application's code here
+    return render_template('finishFee.html')
+
+@app.route('/finishFinishFee')
+def finishfinishfee():  # put application's code here
+    return render_template('finishFinishFee.html')
+
 @app.route('/finish')
-def finishPayment():  # put application's code here
+def finishpayment():  # put application's code here
     return render_template('finishPayment.html')
 
 
