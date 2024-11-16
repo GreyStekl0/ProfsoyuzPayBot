@@ -1,0 +1,62 @@
+@import "baze";
+@import "variable";
+@import "font";
+
+body {
+  background: $bg url("/static/image/bg.svg") top no-repeat;
+  font-family: avenirNextCyr, sans-serif;
+  color: $text;
+
+  .payment {
+    padding: 118px 30px 0 30px;
+
+    .payment__cost {
+      background-color: $bg;
+      border-radius: 20px;
+
+      .payment__cost-list {
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-bottom: 20px;
+      }
+    }
+
+    .payment__info {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      li {
+        padding-top: 22px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid $secondary;
+
+      }
+    }
+
+    .payment__form {
+      padding-top: 100px;
+
+      li {
+        padding-top: 22px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid $secondary;
+
+        input::placeholder {
+          color: $text;
+        }
+      }
+    }
+
+    .payment__button {
+      margin-top: 52px;
+      background-color: $secondary;
+      font-size: 20px;
+      padding: 17px 120px;
+      border-radius: 15px;
+
+      &:hover {
+        background-color: darken($secondary, 10%);
+      }
+    }
+  }
+}

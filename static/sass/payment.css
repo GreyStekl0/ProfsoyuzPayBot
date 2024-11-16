@@ -1,0 +1,87 @@
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: avenirNextCyr, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 800;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "avenirNextCyr";
+  src: url("../fonts/AvenirNextCyr-Regular.eot");
+  src: url("../fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Regular.woff2") format("woff2"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Regular.svg#avenirNextCyr") format("svg");
+}
+body {
+  background: #022328 url("/static/image/bg.svg") top no-repeat;
+  font-family: avenirNextCyr, sans-serif;
+  color: #F9F8F3;
+}
+body .payment {
+  padding: 118px 30px 0 30px;
+}
+body .payment .payment__cost {
+  background-color: #022328;
+  border-radius: 20px;
+}
+body .payment .payment__cost .payment__cost-list {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+body .payment .payment__info {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .payment .payment__info li {
+  padding-top: 22px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #509B46;
+}
+body .payment .payment__form {
+  padding-top: 100px;
+}
+body .payment .payment__form li {
+  padding-top: 22px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #509B46;
+}
+body .payment .payment__form li input::placeholder {
+  color: #F9F8F3;
+}
+body .payment .payment__button {
+  margin-top: 52px;
+  background-color: #509B46;
+  font-size: 20px;
+  padding: 17px 120px;
+  border-radius: 15px;
+}
+body .payment .payment__button:hover {
+  background-color: rgb(61.8666666667, 119.8666666667, 54.1333333333);
+}
+
+/*# sourceMappingURL=payment.css.map */
