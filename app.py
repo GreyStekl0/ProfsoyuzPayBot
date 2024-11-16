@@ -1,6 +1,5 @@
 from flask import Flask, render_template
 import telebot
-from config import  BOT_KEY
 
 app = Flask(__name__, template_folder='./templates')
 

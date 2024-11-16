@@ -52,13 +52,14 @@ body {
     }
 
     .payment__button {
-      margin-top: 171px;
       background-color: $primary;
       font-size: 20px;
       border-radius: 15px;
       width: 100%;
       padding: 17px 0;
       text-align: center;
+      position: fixed; /* Фиксирует кнопку относительно окна браузера */
+      bottom: 10px; /* Расстояние от нижнего края */
 
       &:hover {
         background-color: darken($primary, 10%);
