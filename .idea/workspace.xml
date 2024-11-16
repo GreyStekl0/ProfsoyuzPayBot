@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6add397d-5c4b-43b4-8a3f-39739685dc48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProfsoyuzPay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/sass/baze.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/sass/font.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/sass/payment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/sass/variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/finishPayment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/baze.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/sass/baze.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/sass/font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/sass/payment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/payment.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/sass/payment.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/sass/payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/sass/payment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/payment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +26,36 @@
       <list>
         <option value="Flask Main" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GreyStekl0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GreyStekl0/ProfsoyuzPayBot.git&quot;,
+    &quot;accountId&quot;: &quot;a809235d-c5d5-4313-93d9-f28942bd99c1&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -46,16 +69,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Flask server.ProfsoyuzPay.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +129,10 @@
       <workItem from="1731754107934" duration="18000" />
       <workItem from="1731754171600" duration="2589000" />
       <workItem from="1731759771674" duration="5340000" />
+      <workItem from="1731777597250" duration="164000" />
+      <workItem from="1731777940311" duration="467000" />
+      <workItem from="1731778535919" duration="3036000" />
+      <workItem from="1731781625096" duration="3472000" />
     </task>
     <servers />
   </component>
@@ -111,6 +140,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProfsoyuzPay$ProfsoyuzPay.coverage" NAME="ProfsoyuzPay Coverage Results" MODIFIED="1731764957977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProfsoyuzPay$ProfsoyuzPay.coverage" NAME="ProfsoyuzPay Coverage Results" MODIFIED="1731784494339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

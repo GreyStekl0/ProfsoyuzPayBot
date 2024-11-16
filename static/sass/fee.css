@@ -81,39 +81,38 @@ body {
   font-family: avenirNextCyr, sans-serif;
   color: #F9F8F3;
 }
-body .payment {
+body .fee {
   padding-top: 155px;
 }
-body .payment .payment__cost {
+body .fee .fee__cost {
   background-color: #022328;
   border-radius: 25px;
 }
-body .payment .payment__cost .payment__cost-list {
+body .fee .fee__cost .fee__cost-list {
   padding: 22px 0 22px 24px;
+  margin-bottom: 27px;
 }
-body .payment .payment__cost .payment__cost-list .payment__cost-title {
+body .fee .fee__cost .fee__cost-list .fee__cost-title {
   font-weight: 400;
 }
-body .payment .payment__info .payment__info-org {
-  font-weight: 500;
-  margin-top: 27px;
+body .fee .fee__cost .fee__cost-list .fee__cost-title input::placeholder {
+  color: #F9F8F3;
 }
-body .payment .payment__info .payment__info-aim {
+body .fee .fee__info .fee__info-org {
+  font-weight: 500;
+}
+body .fee .fee__info .fee__info-aim {
   font-weight: 500;
   margin-top: 10px;
 }
-body .payment .payment__info .payment__info-text {
-  font-size: 10px;
-  font-weight: 200;
-}
-body .payment .payment__info li {
+body .fee .fee__info li {
   background-color: #022328;
   border-radius: 12px;
   padding-top: 12px;
   padding-left: 14px;
   padding-bottom: 12px;
 }
-body .payment .payment__button {
+body .fee .fee__button {
   margin-top: 171px;
   background-color: #509B46;
   font-size: 20px;
@@ -122,8 +121,8 @@ body .payment .payment__button {
   padding: 17px 0;
   text-align: center;
 }
-body .payment .payment__button:hover {
+body .fee .fee__button:hover {
   background-color: rgb(61.8666666667, 119.8666666667, 54.1333333333);
 }
 
-/*# sourceMappingURL=payment.css.map */
+/*# sourceMappingURL=fee.css.map */

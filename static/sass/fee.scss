@@ -7,38 +7,37 @@ body {
   font-family: avenirNextCyr, sans-serif;
   color: $text;
 
-  .payment {
+  .fee {
     padding-top: 155px;
 
-    .payment__cost {
+    .fee__cost {
       background-color: $bg;
       border-radius: 25px;
 
-      .payment__cost-list {
+      .fee__cost-list {
         padding: 22px 0 22px 24px;
+        margin-bottom: 27px;
 
-        .payment__cost-title {
+        .fee__cost-title {
           font-weight: 400;
+
+          input::placeholder{
+            color: $text;
+          }
         }
       }
     }
 
-    .payment__info {
+    .fee__info {
 
-      .payment__info-org {
+      .fee__info-org {
         font-weight: 500;
-        margin-top: 27px;
 
       }
 
-      .payment__info-aim {
+      .fee__info-aim {
         font-weight: 500;
         margin-top: 10px;
-      }
-
-      .payment__info-text {
-        font-size: 10px;
-        font-weight: 200;
       }
 
 
@@ -51,7 +50,7 @@ body {
       }
     }
 
-    .payment__button {
+    .fee__button {
       margin-top: 171px;
       background-color: $secondary;
       font-size: 20px;
