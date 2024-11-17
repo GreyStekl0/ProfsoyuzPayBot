@@ -4,6 +4,7 @@
 
 body {
   background: $bg url("/static/image/bg.svg") top no-repeat;
+  background-size: cover;
   font-family: avenirNextCyr, sans-serif;
   color: $text;
 
