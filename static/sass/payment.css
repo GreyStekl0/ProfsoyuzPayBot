@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -125,7 +124,7 @@ body {
   color: #F9F8F3;
 }
 body .payment {
-  padding-top: 100px;
+  padding-top: 105px;
 }
 body .payment .payment__cost {
   background-color: #022328;
@@ -157,14 +156,13 @@ body .payment .payment__info li {
   padding-bottom: 12px;
 }
 body .payment .payment__button {
+  margin-top: 171px;
   background-color: #509B46;
   font-size: 20px;
   border-radius: 15px;
   width: 100%;
   padding: 17px 0;
   text-align: center;
-  position: fixed; /* Фиксирует кнопку относительно окна браузера */
-  bottom: 10px; /* Расстояние от нижнего края */
 }
 body .payment .payment__button:hover {
   background-color: rgb(61.8666666667, 119.8666666667, 54.1333333333);

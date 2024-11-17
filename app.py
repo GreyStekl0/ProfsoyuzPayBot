@@ -4,11 +4,11 @@ import telebot
 app = Flask(__name__, template_folder='./templates')
 
 
-@app.route('/payment')
+@app.route('/')
 def payment():  # put application's code here
     return render_template('payment.html')
 
-@app.route('/')
+@app.route('/fee')
 def fee():  # put application's code here
     return render_template('fee.html')
 
