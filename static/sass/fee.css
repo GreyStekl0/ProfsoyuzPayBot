@@ -120,11 +120,12 @@ input[type=text], input[type=submit], textarea {
 }
 body {
   background: #022328 url("/static/image/bg.svg") top no-repeat;
+  background-size: cover;
   font-family: avenirNextCyr, sans-serif;
   color: #F9F8F3;
 }
 body .fee {
-  padding-top: 100px;
+  padding-top: 85px;
 }
 body .fee .fee__cost {
   background-color: #022328;
