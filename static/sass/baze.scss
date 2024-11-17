@@ -31,3 +31,7 @@ button {
   display: inline-block;
   cursor: pointer;
 }
+
+input[type=text], input[type=submit], textarea{
+	-webkit-appearance: none;
+}

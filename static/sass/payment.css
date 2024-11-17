@@ -33,6 +33,10 @@ button {
   cursor: pointer;
 }
 
+input[type=text], input[type=submit], textarea {
+  -webkit-appearance: none;
+}
+
 @font-face {
   font-family: "avenirNextCyr";
   src: url("../fonts/AvenirNextCyr-Regular.eot");
