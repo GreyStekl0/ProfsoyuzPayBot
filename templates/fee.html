@@ -40,7 +40,29 @@
     </div>
 </div>
 <script>
-    document.getElementById('createButton').addEventListener('click', function() {
+    document.addEventListener('DOMContentLoaded', function () {
+        const createButton = document.getElementById('createButton');
+        const inputs = document.querySelectorAll('.fee input');
+
+        function checkInputs() {
+            let allFilled = true;
+            inputs.forEach(input => {
+                if (input.value.trim() === '') {
+                    allFilled = false;
+                }
+            });
+            createButton.disabled = !allFilled;
+        }
+
+        inputs.forEach(input => {
+            input.addEventListener('input', checkInputs);
+        });
+
+        checkInputs(); // Initial check
+    });
+</script>
+<script>
+    document.getElementById('createButton').addEventListener('click', function () {
         window.location.href = '/finishFee';
     });
 </script>
